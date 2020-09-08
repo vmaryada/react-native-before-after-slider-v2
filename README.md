@@ -11,6 +11,10 @@ This is an improvised version of Malik Aliyev's react-native-before-after-slider
 npm i react-native-before-after-slider-v2
 ```
 
+## Expo
+
+[Open project in the browser](https://expo.io/@vmaryada/ReactNativeSlider)
+
 ## Demo
 ![expo](assets/slider.gif)
 
