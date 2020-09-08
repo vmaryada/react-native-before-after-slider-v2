@@ -7,8 +7,9 @@ This is an improvised version of Malik Aliyev's react-native-before-after-slider
 
 
 ## Installation
-
-
+```bash
+npm i react-native-before-after-slider-v2
+```
 
 
 ## API
