@@ -11,7 +11,9 @@ This is an improvised version of Malik Aliyev's react-native-before-after-slider
 npm i react-native-before-after-slider-v2
 ```
 
+## Demo
 ![expo](assets/slider.gif)
+
 ## API
 
 | Property            | Optional | Default      | Description                                |
