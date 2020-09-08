@@ -11,7 +11,7 @@ This is an improvised version of Malik Aliyev's react-native-before-after-slider
 npm i react-native-before-after-slider-v2
 ```
 
-
+![expo]('https://firebasestorage.googleapis.com/v0/b/milanlaser-fcb24.appspot.com/o/slider.gif?alt=media&token=d47fecdb-dc3a-43cf-9c04-d2a690d8b6e5')
 ## API
 
 | Property            | Optional | Default      | Description                                |
