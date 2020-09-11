@@ -61,9 +61,7 @@ export default function Compare (props) {
     const [exa, setExa] = useState(1);
  const [parent, setParent] = useState({_panResponder: ()=>{}});
  let tempLeft;
- /*useEffect(()=>{
-   console.log('curre2',state.currentLeft, state.left)
- },[state.currentLeft, state.left])*/
+
   useEffect (()=>{
   setParent({_panResponder : PanResponder.create({
       onMoveShouldSetResponderCapture: () => true,
@@ -75,11 +73,11 @@ export default function Compare (props) {
       },
       tempLeft : 0,
       onPanResponderMove: (event, gestureState) => {
-        console.log('moved');
+      
         let dx = gestureState.dx;
        
         let left = state.currentLeft + dx;
-        console.log('currentLeft', state.currentLeft);
+      
         let { width, draggerWidth } = state;
 
         if ( left < 0 ) left = 0;
